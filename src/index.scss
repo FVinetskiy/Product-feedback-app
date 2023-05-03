@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  min-width: 375px;
+  font-family: 'Jost', sans-serif;
+  overflow: auto;
+  min-height: 100vh;
+  background: #F2F2F2;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
