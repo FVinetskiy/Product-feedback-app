@@ -1,0 +1,21 @@
+.answer {
+  display: flex;
+  padding-left: 44px;
+  margin-bottom: 32px;
+  &__content {
+    width: 100%;
+  }
+  &__replyingTo {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ad1fea;
+    margin-right: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-left: 24px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

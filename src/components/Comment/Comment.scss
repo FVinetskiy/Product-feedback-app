@@ -1,0 +1,134 @@
+.comments {
+  padding: 24px 34px;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 24px;
+
+  &__reply-block {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 24px;
+
+    textarea {
+      margin-right: 16px;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #3a4374;
+    margin: 0 0 28px 0;
+    span {
+      margin-right: 10px;
+    }
+  }
+  &__avatar {
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 32px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__item {
+    border-bottom: 1px solid #e2e4eb;
+    margin-bottom: 32px;
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  &__main-content {
+    display: flex;
+    margin: 0 0 32px 0;
+  }
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #3a4374;
+    margin: 0;
+  }
+
+  &__username {
+    font-size: 14px;
+    line-height: 20px;
+    color: #647196;
+    margin: 0;
+  }
+
+  &__reply {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    color: #4661e6;
+    border: 0;
+    padding: 0;
+    background: transparent;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__content {
+    width: 100%;
+  }
+
+  &__text {
+    font-size: 15px;
+    line-height: 22px;
+    color: #647196;
+    margin: 0;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 24px 24px;
+    &__avatar {
+      margin-right: 15px;
+    }
+    &__head {
+      margin-bottom: 13px;
+    }
+    &__text {
+      margin-left: -56px;
+      font-size: 13px;
+      line-height: 19px;
+    }
+    &__main-content {
+      margin: 0 0 24px 0;
+    }
+    &__item {
+      margin-bottom: 24px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+    &__answer-block {
+      font-size: 13px;
+      line-height: 19px;
+      margin-left: -56px;
+      .comments__text {
+        margin-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.filter {
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    margin-right: 8px;
+    margin-bottom: 14px;
+  }
+
+  &__button {
+    background: #f2f4ff;
+    border-radius: 10px;
+    border: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    color: #4661e6;
+    transition: 0.2s linear;
+    padding: 8px 16px;
+    &:hover {
+      background: #cfd7ff;
+    }
+
+    &.active {
+      background: #4661e6;
+      color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    flex: 1;
+    margin: 0;
+    align-content: flex-start;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+    margin-bottom: 24px;
+  }
+}

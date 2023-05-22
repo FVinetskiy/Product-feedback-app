@@ -1,0 +1,46 @@
+.header {
+  background: #373f68;
+  border-radius: 10px;
+  width: 100%;
+  padding: 14px 16px 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+
+  &__svg {
+    margin-right: 16px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.25px;
+    color: #ffffff;
+    margin: 0 38px 0 0;
+    span {
+      margin-right: 6px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 8px 25px;
+    position: absolute;
+    left: 0;
+    top: 72px;
+    border-radius: 0;
+    &__title {
+      display: none;
+    }
+
+    &__svg {
+      display: none;
+    }
+  }
+}

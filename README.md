@@ -1,4 +1,4 @@
-- View the optimal layout for the app depending on their device's screen size
+- View the optimal layout for the app depending on their device's screen size(pixel perfect)
 - See hover states for all interactive elements on the page
 - Create, read, update, and delete product feedback requests
 - Receive form validations when trying to create/edit feedback requests
@@ -14,3 +14,4 @@
 - [x] npm i
 - [x] npm run dev
 - [x] npm run build
+- [x] npx stylelint "\*_/_.scss"

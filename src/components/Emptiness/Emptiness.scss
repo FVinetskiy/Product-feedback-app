@@ -1,0 +1,33 @@
+.emptiness {
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 0;
+  margin-bottom: 24px;
+
+  svg {
+    margin-bottom: 62px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #3a4374;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #647196;
+    margin: 0;
+    width: 420px;
+    margin-bottom: 45px;
+  }
+}
